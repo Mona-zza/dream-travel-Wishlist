@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Dream Travel</title>
+  <style>
+    body {
+      background-color: #fce4ec;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #880e4f;
+    }
+    img {
+      width: 80%;
+      border-radius: 20px;
+      box-shadow: 0px 0px 10px #ff80ab;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      font-size: 18px;
+      text-decoration: none;
+      color: white;
+      background: #ff4081;
+      padding: 10px 20px;
+      border-radius: 10px;
+      transition: 0.3s ease;
+    }
+    a:hover {
+      background: #c51162;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Dream Travel Page 💖✈️</h1>
+  <p>Where would I go if I could leave everything behind right now? 😮</p>
+  <img src="places/door.jpg" height="950" width="200" alt="Dreamy door" />
+  <br />
+  <a href="wishlist.html">See My Travel Wishlist ✈️</a>
+
+  <h2>Dream Destinations Achieved 💫</h2>
+  <p id="progress-text">0 out of 10 dreams achieved 😔</p>
+  <div style="background-color: #eee; border-radius: 10px; overflow: hidden; width: 100%; max-width: 400px;">
+    <div id="progress-bar" style="height: 25px; width: 0%; background-color: #FF69B4;"></div>
+  </div>
+
+  <br>
+  <button onclick="markAchieved()" style="padding: 10px 20px; background-color: black; color: white; border: none; border-radius: 5px;">Mark 1 Achieved 💥</button>
+
+  <p id="quote" style="display:none;">"Wander often, wonder always." ✨</p>
+  <button onclick="toggleQuote()">Show/Hide Quote</button>
+  <input type="text" id="dreamInput" oninput="liveDream()" placeholder="Describe your dream">
+  <p id="liveDreamText"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

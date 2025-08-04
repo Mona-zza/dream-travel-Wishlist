@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wishlist Slideshow 💖</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      color: #6a1b9a;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #d81b60;
+      margin-bottom: 40px;
+    }
+
+    .slideshow {
+      position: relative;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .slide {
+      display: none;
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+    }
+
+    .caption {
+      margin-top: 10px;
+      font-size: 20px;
+    }
+
+    .btn {
+      margin: 20px 10px;
+      padding: 10px 20px;
+      background-color: #ec407a;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #880e4f;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      color: white;
+      background: #6a1b9a;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+
+    a:hover {
+      background: #4a148c;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Mona's Travel Wishlist ✨💭</h1>
+
+  <div class="slideshow">
+    <div class="slide">
+      <img src="places/Capital of South Korea_ (1).jpg" alt="Seoul">
+      <div class="caption">Seoul, South Korea  — Kdrama streets & boba</div>
+    </div>
+    <div class="slide">
+      <img src="places/download (5).jpg" alt="Tokyo">
+      <div class="caption">Tokyo, Japan  — Cherry blossoms & cute cafés</div>
+    </div>
+    <div class="slide">
+      <img src="places/Bran Castle Romania.jpg" alt="Romania">
+      <div class="caption">Transylvania, dracula castle 😘</div>
+    </div>
+    <div class="slide">
+      <img src="places/Shanghai (1).jpg" alt="China">
+      <div class="caption">Shanghai, China — Main character moment 💅🏻</div>
+    </div>
+    <div class="slide">
+      <img src="places/London.jpg" alt="London">
+      <div class="caption">London, UK  — Dark academia dreams 🌧️📚</div>
+    </div>
+    <div class="slide">
+      <img src="places/Edinburgh Scotland, rainy day.jpg" alt="Scotland">
+      <div class="caption">Edinburgh, Scotland — Hogwarts vibes 🏰</div>
+    </div>
+  </div>
+
+  <div>
+    <button class="btn" onclick="prevSlide()">← Back</button>
+    <button class="btn" onclick="nextSlide()">Next →</button>
+  </div>
+
+  <a href="index.html">← Back to Dream Page</a>
+
+  <p id="favPlace"></p>
+  <input type="text" oninput="setFavorite(this.value)" placeholder="Type your fav place">
+
+  <button onclick="toggleCaptions()">Toggle Captions</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
