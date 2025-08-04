@@ -1,0 +1,63 @@
+body{
+    background-color:pink
+}/* Progress bar container */
+#progress-bar {
+  background-color: #FF69B4; /* hot pink  */
+  height: 25px;
+  width: 0%;
+  transition: width 0.4s ease;
+  border-radius: 10px;
+}
+
+/* Button styling */
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #FF69B4;
+  color: black;
+}
+
+/* Progress text */
+#progress-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.wishlist img {
+  max-width: 200px; /* */
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+  margin: 10px auto;
+}
+button {
+  background: linear-gradient(135deg, #ff80bf, #ffb347);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3);
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #ff66a3, #ffa07a);
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.5);
+}
