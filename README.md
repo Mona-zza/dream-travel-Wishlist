@@ -1,28 +1,32 @@
-# 💖 Dream Travel Wishlist 🌍✨
 
-Welcome to my dreamy corner of the web — a place where all my wanderlust fantasies come to life 😌  
-This is a personal travel wishlist site built with love, vibes, and vision — showing off all the places I wanna escape to ✈️🌈
+# 🌍 Dream Travel Wishlist ✈️✨
+Welcome to my dreamy travel wishlist website!  
+This site is built for dreamers like me, who wanna explore the world and keep a cute lil list of all the magical destinations that live rent-free in our hearts 💖
 
-## 🔮 What Makes It Special?
+## 💡 Unique Features
 
-- 💗 **Aesthetic** – minimalist layout, dreamy colors, pure ✨vibes✨  
-- 📍 **Location Highlights** – each wishlist item has its own unique touch  
-- 💭 **Built from Scratch** – no templates, just my imagination and some magic code  
-- 🌐 **Live on Vercel** – [Click here to explore](https://dream-travel-wishlist-7i3l.vercel.app/)
+- 🧳 Aesthetic, minimal design (like me 😌)
+- 📌 Add & remove travel destinations easily
+- 💬 Inspiring quotes that’ll make your wanderlust scream
+- 🧠 LocalStorage-powered, so your dream list *stays* with you
+- 🎨 Pastel, clean UI that feels like a damn Pinterest board 🧸
 
-## 🛠️ Built With
+## 🧪 Built With
 
 - HTML
 - CSS
-- JavaScript  
-- 💋 and  a whole lotta love
+- JavaScript
+- LocalStorage
+- Vercel for deployment
 
-## 🚀 How to Use
+## 💻 Live Preview
 
-Just visit the [live website](https://dream-travel-wishlist-7i3l.vercel.app/) and vibe with it.  
-Future updates may include filtering, animations, or even booking integrations 👀
+👉🏼 [Click here to explore](https://dream-travel-wishlist-7i3l.vercel.app/)
 
-## 🧁 Author
+## 🫶 Author
+
+Made with way too much love, sass, and late-night energy by [@Mona-zza](https://github.com/Mona-zza) 🖤
+
 
 Made with magic, sparkles and sleepless nights by **[Mona-zza](https://github.com/mona-zza)** 🖤
 
